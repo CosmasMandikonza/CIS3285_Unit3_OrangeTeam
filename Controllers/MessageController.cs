@@ -27,7 +27,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             return View();
         }
-
+         // Changes for Sprint # -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 1b -- As a message reading user, I want to view a list of rooms that represent conversations
         // POST: MessageController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
