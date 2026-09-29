@@ -5,6 +5,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
     {
+         //  Changes for Sprint 2 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 2b --  As a message reading user, I want to filter message content so that it is appropriate.    
         // GET: RoomController
         public ActionResult Index()
         {
@@ -16,7 +18,8 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             return View();
         }
-
+         //  Changes for Sprint 2 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 2b --  As a message reading user, I want to filter message content so that it is appropriate.
         // GET: RoomController/Create
         public ActionResult Create()
         {
